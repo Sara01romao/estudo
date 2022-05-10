@@ -81,3 +81,22 @@ h2{
   color: $color2;
   background: $color1;
 }
+
+#### Funções
+ - lighten e Darken: altera a cor
+ background: lighten(blue, 20%);
+
+ - transparentize
+  background: transparentize(blue, 0.5);
+
+-round: arredonda o numero em algum calculo
+ width: round($width /3);
+- criar
+
+  @funtion tamanho($pixels){
+      @return ($pixel * 2)
+  }
+
+  h1{
+      font-size: tamanho($pixels)
+  }
