@@ -61,4 +61,9 @@ h1::after {
     color: #c0ffe2;
   }
 }
+
+h2 {
+  color: black;
+  background: #095fff;
+}
 /*# sourceMappingURL=style.css.map */

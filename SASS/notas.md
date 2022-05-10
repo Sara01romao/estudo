@@ -61,3 +61,23 @@ h1{
         color: pink
     }
 }
+
+### Condicionais
+
+$tema: light;
+$color1: rgb(83, 209, 24);
+$color2: rgb(48, 80, 223);
+
+@if $tema == dark{
+  $color1: rgb(209, 24, 24);
+  $color2: white;
+
+}@else if $tema == light{
+   $color1: rgb(9, 95, 255);
+   $color2: black;
+}
+
+h2{
+  color: $color2;
+  background: $color1;
+}
