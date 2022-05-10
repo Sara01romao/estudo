@@ -1,12 +1,31 @@
 @import "button";
 
-$preto: #999;
+//variável
+$color1: #999;
+$font1: monospace;
 
 div {
-  background: $preto;
+  background: $color1;
   max-width: 400px;
   height: 150px;
   a {
     color: pink;
+    font-family: $font1;
+  }
+}
+
+//Nesting
+ul{
+  text-align: center;
+  li{
+      list-style:none;
+      display: inline-block;
+      a{
+          color: rgb(20, 53, 199);
+          text-decoration: none;
+          &:hover{
+            background-color: #999;
+          }
+      }
   }
 }

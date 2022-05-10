@@ -14,5 +14,24 @@ div {
 
 div a {
   color: pink;
+  font-family: monospace;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a {
+  color: #1435c7;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #999;
 }
 /*# sourceMappingURL=style.css.map */
