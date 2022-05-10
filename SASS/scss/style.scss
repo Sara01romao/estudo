@@ -1,6 +1,7 @@
 @import "button";
 
 //variável
+$color: #999;
 $color1: #999;
 $font1: monospace;
 
@@ -25,7 +26,58 @@ ul{
           text-decoration: none;
           &:hover{
             background-color: #999;
-          }
+          };
+
+          
       }
+  }
+}
+
+//mixin
+@mixin title-large{
+  font-size:4em;
+  line-height: 1;
+  font-weight:bold;
+  color: #999;
+}
+
+h1{
+  @include title-large;
+}
+
+//Argumento
+
+@mixin separador($color) {
+  &::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: $color;
+  }
+  
+}
+
+h1{
+  @include separador($color);
+}
+
+
+//@content
+@mixin mobile{
+  @media (max-width:600px){
+      @content;
+  }
+}
+
+h1{
+  @include mobile{
+      color: pink
+  }
+}
+
+a{
+  @include mobile{
+    color: rgb(192, 255, 226)
   }
 }

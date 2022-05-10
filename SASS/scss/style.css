@@ -34,4 +34,31 @@ ul li a {
 ul li a:hover {
   background-color: #999;
 }
+
+h1 {
+  font-size: 4em;
+  line-height: 1;
+  font-weight: bold;
+  color: #999;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #999;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    color: pink;
+  }
+}
+
+@media (max-width: 600px) {
+  a {
+    color: #c0ffe2;
+  }
+}
 /*# sourceMappingURL=style.css.map */

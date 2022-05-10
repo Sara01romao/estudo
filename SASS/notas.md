@@ -23,3 +23,41 @@ ul{
         }
     }
 }
+
+### Mixins - encapsula valores para serem usados. 
+@mixin title-large{
+    font-size:4em;
+    line-height: 1;
+    font-weight:bold;
+    
+}
+
+h1{
+     @include title-large;
+    
+}
+
+#### com Argumento
+@mixin title-large($color){
+    font-size:4em;
+    line-height: 1;
+    font-weight:bold;
+    background: $color;
+}
+
+h1{
+     @include title-large($color);
+   
+}
+#### @content
+@mixin mobile{
+    @media (max-width:600px){
+        @content;
+    }
+}
+
+h1{
+    @include mobile{
+        color: pink
+    }
+}
