@@ -1,0 +1,28 @@
+@for $i from 1 through 4{
+    .item-#{$i}{
+        width: $i;
+    }
+}
+
+
+$container:960;
+$gutter:20;
+$colunas:16;
+
+//
+@for $i from 1 through $colunas{
+    $width:$container /$colunas * $i - $gutter;
+    .grid-#{$i}{
+        width: $width + px;
+    }
+}
+
+
+//
+
+$redes: github linkedin instagram; //lista de itens
+@each $rede in $redes{
+    .#{$rede}-icon{
+        background-image:url('../img/#{$rede}.png');
+    }
+}

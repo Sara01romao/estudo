@@ -100,3 +100,27 @@ h2{
   h1{
       font-size: tamanho($pixels)
   }
+
+  ### @for,  @while e @each
+  loop de 1 até 6. #{variável} serve para css reconhecer o valor da variável 
+  @for $i from 1 through 6{
+      .item-#{$i}{
+          width:100px * $i;
+      }
+  }
+
+    $i : 1;
+    @while $i <=6 {
+        .type-#{$i}{
+            font-size:16px * $i;
+        }
+        $i: $i +1;
+    }
+
+
+    $redes: github linkedin instagram; //lista de itens
+    @each $rede in $redes{
+        .#{rede}-icon{
+            background-image:url('../img/#{rede}.png');
+        }
+    }

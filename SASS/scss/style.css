@@ -6,6 +6,98 @@ button {
   border-radius: 5px;
 }
 
+.item-1 {
+  width: 1;
+}
+
+.item-2 {
+  width: 2;
+}
+
+.item-3 {
+  width: 3;
+}
+
+.item-4 {
+  width: 4;
+}
+
+.grid-1 {
+  width: 40px;
+}
+
+.grid-2 {
+  width: 100px;
+}
+
+.grid-3 {
+  width: 160px;
+}
+
+.grid-4 {
+  width: 220px;
+}
+
+.grid-5 {
+  width: 280px;
+}
+
+.grid-6 {
+  width: 340px;
+}
+
+.grid-7 {
+  width: 400px;
+}
+
+.grid-8 {
+  width: 460px;
+}
+
+.grid-9 {
+  width: 520px;
+}
+
+.grid-10 {
+  width: 580px;
+}
+
+.grid-11 {
+  width: 640px;
+}
+
+.grid-12 {
+  width: 700px;
+}
+
+.grid-13 {
+  width: 760px;
+}
+
+.grid-14 {
+  width: 820px;
+}
+
+.grid-15 {
+  width: 880px;
+}
+
+.grid-16 {
+  width: 940px;
+}
+
+.github-icon {
+  background-image: url("../img/github.png");
+}
+
+.linkedin-icon {
+  background-image: url("../img/linkedin.png");
+}
+
+.instagram-icon {
+  background-image: url("../img/instagram.png");
+}
+
 div {
   background: #999;
   max-width: 400px;
