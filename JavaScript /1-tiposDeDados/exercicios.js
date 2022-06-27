@@ -20,3 +20,11 @@ const b = 5;
  console.log(10 < 5 ? true: false);
  console.log(10 === 5 ? true: false);
 
+//4- Escreva comparações com operadores lógicos
+if(idade != peso){
+    console.log(true)
+} 
+
+//5- Faça uma opração que emita Nan no console.
+
+console.log(5 * "txt")
