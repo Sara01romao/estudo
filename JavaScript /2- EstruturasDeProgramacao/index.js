@@ -12,3 +12,15 @@ console.log(maior);
 
 let arredondar = Math.round(5.55555);
 console.log(arredondar)
+
+
+//Estruturas de Controle- com a estrutura podemos modelar o fluxo do programa
+
+//if, else e else if
+if(idade >18){
+    console.log("Pode entrar");
+}else if(idade==18){
+    console.log("18 anos pode entrar")
+}else{
+    console.log('Não pode Entrar')
+}
