@@ -15,7 +15,6 @@ console.log(arredondar)
 
 
 //Estruturas de Controle- com a estrutura podemos modelar o fluxo do programa
-
 //if, else e else if
 if(idade >18){
     console.log("Pode entrar");
@@ -24,3 +23,14 @@ if(idade >18){
 }else{
     console.log('Não pode Entrar')
 }
+
+
+//Estrutura de Repetição
+
+//While - faça até a condição seja atingida
+let x = 5;
+while(x > 0){
+    console.log(x);
+    x= x - 1
+}
+
