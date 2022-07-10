@@ -30,7 +30,20 @@ if(idade >18){
 //While - faça até a condição seja atingida
 let x = 5;
 while(x > 0){
-    console.log(x);
+    console.log("while",x);
     x= x - 1
 }
 
+//do- while
+let y = 0
+do{
+    console.log("do-while",y)
+    y = y + 1
+}while(y >= 10);
+
+//for
+for(let n = 0; n < 5; n++){
+
+    console.log("for", n)
+
+}
