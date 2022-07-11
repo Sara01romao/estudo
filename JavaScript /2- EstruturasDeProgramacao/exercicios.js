@@ -5,3 +5,9 @@ const maiorIdade = true;
 
 
 
+//7-Crie uma estritura IF que verifica a entrada na balada, se tiver mais de 18anos pode entrar
+if(idade < 18){
+    console.log("Não pode entrar")
+}else{
+    console.log('Pode Entrar')
+}
