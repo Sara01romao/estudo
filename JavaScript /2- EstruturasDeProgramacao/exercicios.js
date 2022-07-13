@@ -11,3 +11,12 @@ if(idade < 18){
 }else{
     console.log('Pode Entrar')
 }
+
+
+//8-Crie uma constante com o seu nome como valor, depois uma estrutura if que verifica seu nome.
+if(nome =="Sara"){
+    console.log("Nome verdadeiro")
+}
+
+//9-A função MAth.pow() exibe a potencia de um numero
+console.log(Math.pow(2,4))
