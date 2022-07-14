@@ -20,3 +20,11 @@ if(nome =="Sara"){
 
 //9-A função MAth.pow() exibe a potencia de um numero
 console.log(Math.pow(2,4))
+
+//10- Armazenar a velocidade de um carro em uma variável, com o número que desejar.Faça
+//uma estrutura if/else se ele está acima da velocidade permitida 80km
+
+const velocidade = 90;
+if(velocidade>80){
+    console.log("Carro passou da velocidade permitida")
+}
