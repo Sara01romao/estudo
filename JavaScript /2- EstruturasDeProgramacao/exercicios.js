@@ -28,3 +28,15 @@ const velocidade = 90;
 if(velocidade>80){
     console.log("Carro passou da velocidade permitida")
 }
+
+//11- Escreva um loope while que exibe numeros de 0 a 10 no console
+let i =0;
+while(i <=10){
+    console.log(i);
+    i++
+}
+
+//12- Escreva um loop for que exibe numeros de 100 a 50 no console
+for(let i =100; i >= 50; i--){
+    console.log(i)
+}
