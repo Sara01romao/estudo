@@ -27,3 +27,11 @@ function soma(){
 
 console.log(soma());
 
+//Escreva uma função que retorne um número aleatório. O numero máximo retornado deve ser passado via parâmetro.
+ function numAleatorio(max){
+     console.log(Math.random()*(max - 1)+1);
+ }
+
+ numAleatorio(2)
+
+ 
